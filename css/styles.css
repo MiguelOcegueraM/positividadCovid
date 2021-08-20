@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    margin: 80px 100px 10px 100px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background: #555652;
+}
+
+.container {
+    color: #E8E9EB;
+    background: #222;
+    border: #555652 1px solid;
+    padding: 10px;
+}
+
+.chart {
+    width: 100%; 
+    height: 65vh; 
+    background: #222; 
+    border: 1px solid #555652; 
+    margin-top: 10px;
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.imgHover:hover {
+    color:rgba(8, 238, 238, 0.925);
+}
+
+
+.enlace {
+    text-decoration: none;
+    color: white;
+}
+
+.enlace:hover {
+    color:rgba(8, 238, 238, 0.925);
+}
